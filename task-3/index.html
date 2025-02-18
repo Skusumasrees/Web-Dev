@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <form action="#" method="post">
+            
+            <table>
+                <thead><tr><th colspan="2"><h1>Registration Form</h1></th></tr></thead>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" name="name" id="name" required placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="email" id="email" required placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" name="dob" id="dob" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone:</label></td>
+                    <td><input type="tel" name="phone" id="phone" required placeholder="Enter your phone number"></td>
+                </tr>
+                <tr>
+                    <td><label for="Course">Course:</label></td>
+                    <td>
+                        <select name="Course" id="Course">
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="M.Tech">M.Tech</option>
+                            <option value="BCA">BCA</option>
+                            <option value="MCA">MCA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Stream">Stream:</label></td>
+                    <td>
+                        <select name="Stream" id="Stream">
+                            <option value="CSE">CSE</option>
+                            <option value="ECE">ECE</option>
+                            <option value="ME">ME</option>
+                            <option value="CE">CE</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="languages">Languages:</label></td>
+                    <td>
+                        <input type="checkbox" id="Hindi" name="languages" value="Hindi">
+                        <label for="Hindi">Hindi</label>
+                        <input type="checkbox" id="English" name="languages" value="English">
+                        <label for="English">English</label>
+                        <input type="checkbox" id="Telugu" name="languages" value="Telugu">
+                        <label for="Telugu">Telugu</label>
+                        <input type="checkbox" id="Kannada" name="languages" value="Kannada">
+                        <label for="Kannada">Kannada</label>
+                        <input type="checkbox" id="Other" name="languages" value="Other">
+                        <label for="Other">Other</label>
+                        <input type="text" name="Other" id="Other" placeholder="Enter other language">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td><textarea name="address" id="address" cols="30" rows="10" required placeholder="Enter your address"></textarea></td>
+                </tr>
+                <tr >
+                    <td><label for="about">Your Skills: </label></td>
+                    <td colspan="2"><textarea name="about" id="about" cols="30" rows="10" required placeholder="Write your Skills"></textarea></td>
+                </tr>
+                <tr>
+                    <td><center><input type="submit" value="Submit"></center></td>
+                    <td><center><input type="reset" value="Reset"></center></td>
+                </tr>
+            </table>
+    </form>
+    </div>
+    </body>
+</html>
