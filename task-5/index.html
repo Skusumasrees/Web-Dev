@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video and audio</title>
+</head>
+<body>
+    <video src="video.mp4" controls autoplay></video>
+    <!--
+    <video></video> tag attributes:
+
+    src-specifies the path to the video file
+    controls-Add controls like play,pause, and volume
+    autoplay-Automatically starts playing the video when the page loads
+    loop-Repeats the video once it ends
+    muted-mutes the video by default
+    poster-Specifies an image to be displayed before the video starts playing
+    width and height-specifies dimensions of the video -->
+    
+    <audio src="audio.mp3" controls autoplay></audio>
+    <!--
+    <audio></audio> tag attributes:
+
+    src-specifies the path to the video file
+    controls-Add controls like play,pause, and volume
+    autoplay-Automatically starts playing the video when the page loads
+    loop-Repeats the video once it ends
+    muted-mutes the video by default
+    preload-Specifies if and how the audio should be loaded when the page loads('auto','metadata','none') 
+    
+    The "preload" attribute can have the following values:
+    none: This is the default value. It indicates that the browser should not preload the audio file at all. The audio file will only start downloading when the user initiates playback.
+    metadata: This value tells the browser to preload only the metadata of the audio file, such as its duration and basic information about the audio. This can be useful if you want to display the audio duration to the user without fully loading the audio data.
+    auto: This value instructs the browser to preload the entire audio file as much as possible without delaying the loading of other important page content. The browser will try to load the audio file in the background so that it's ready to play when the user decides to start it.-->
+
+    <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    <!-- 
+    The <iframe> HTML element is used to embed another HTML document within the current document. 
+    It creates an inline frame, which can display a separate webpage or content.
+
+    Attributes:
+    - src: Specifies the URL of the document to be embedded.
+    - width: Sets the width of the iframe in pixels or percentage.
+    - height: Sets the height of the iframe in pixels or percentage.
+    - name: Assigns a name to the iframe, which can be used as a target for links or forms.
+    - sandbox: Enables an extra set of restrictions for the content in the iframe.
+    - allow: Specifies a feature policy for the iframe.
+    - allowfullscreen: Allows the iframe to be displayed in fullscreen mode.
+    - loading: Specifies whether the iframe should be loaded immediately or deferred until it is visible.
+    - referrerpolicy: Controls the referrer information sent when fetching the iframe content.
+    - frameborder: Specifies whether or not to display a border around the iframe (deprecated in HTML5).
+    - scrolling: Controls the appearance of the scrollbars (deprecated in HTML5).
+    - srcdoc: Specifies the HTML content to be displayed in the iframe. -->
+    </body>
+</html>
