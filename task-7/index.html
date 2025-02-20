@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Element Selector*/
+        div{
+            background-color:red;
+            color:yellow
+        }
+        /* class selector */
+        .red{
+            background-color:rgb(156, 10, 113);
+            color:rgb(8, 220, 235)
+        }
+        /* id selector */
+        #green{
+            background-color:rgb(8, 220, 235);
+            color:rgb(156, 10, 113)
+        }
+        /*child selector*/
+        div>p{
+            background-color:rgb(8, 220, 235);
+            color:rgb(156, 10, 113)
+        }
+        /*descendant selector*/
+        div p{
+            background-color:rgb(156, 10, 113);
+            color:rgb(8, 220, 235)
+        }
+        /*universal selector*/
+        *{
+            background-color:rgb(154, 74, 156);
+        }
+        /*pseudo selector*/
+        a:visited{
+            color:yellow
+        }
+        a:link{
+            color:rgb(224, 27, 165)
+        }
+        a:hover{
+            color:rgb(8, 220, 235)
+        }
+        a:active{
+            color:rgb(236, 81, 20)
+        }
+        p:first-child{
+            background-color:rgb(67, 28, 207)
+        }
+
+    </style>
+    </head>
+<body>
+    <main>
+        <p>i am in main tag</p>
+        <p>i am in main tag</p>
+    </main>
+    <div>i  am div</div>
+    <br>
+    <div class="red">i am in red class</div>
+    <br>
+    <div id="green">i am in green id</div>
+    <br>
+    <div>
+        <p>i am in p tag</p>
+    </div>
+    <a href="https://www.youtube.com" target="_blank">youtube</a>
+    <a href="https://www.facebook.com" target="_blank">FaceBook</a>
+    <br>
+</body>
+</html>
